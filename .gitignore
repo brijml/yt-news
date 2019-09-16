@@ -1,0 +1,3 @@
+ytenv/*
+*.pyc
+__pycache__
