@@ -6,7 +6,7 @@ from flask import Config
 
 
 class DevelopmentConfig(Config):
-    MONGODB_DATABASE = 'db_name'
+    MONGODB_DATABASE = 'ytdb'
     MONGODB_HOST = 'localhost'
     MONGODB_PORT = 27017
     MONGODB_USERNAME = 'username'
@@ -15,7 +15,7 @@ class DevelopmentConfig(Config):
 
 
 class ProductionConfig(Config):
-    MONGODB_DATABASE = 'db_name'
+    MONGODB_DATABASE = 'ytdb'
     MONGODB_HOST = 'localhost'
     MONGODB_PORT = 27017
     MONGODB_USERNAME = 'username'
